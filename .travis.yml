@@ -1,0 +1,5 @@
+language: generic
+script:
+ - echo hello
+ - bash -e ./test.sh
+ - ./test.sh
