@@ -1,0 +1,5 @@
+language: generic
+script:
+  - echo prime number check
+  - bash -e ./prime_test.sh
+  - ./prime_test.sh
